@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # This script displays lists of curent process
-
 ps auxf
