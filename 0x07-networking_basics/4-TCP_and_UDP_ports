@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This scrip displays listing of socket PIDs with & name of program where socket belongs
+
+netstat -lp 
