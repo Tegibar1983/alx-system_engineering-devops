@@ -34,11 +34,11 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend nextsystems-tech-frontend
+frontend nextsystems-frontend
     bind *:80
-    default_backend nextsystems-tech-backend
+    default_backend nextsystems-backend
 
-backend nextsystems-tech-backend
+backend nextsystems-backend
     balance roundrobin
     server 480459-web-01 100.26.228.133:80 check
     server 480459-web-02 54.242.169.80:80 check
